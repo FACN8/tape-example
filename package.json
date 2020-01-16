@@ -1,0 +1,17 @@
+{
+  "name": "tape-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape *.test.js | tap-spec",
+    "coverage": "nyc npm test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nyc": "^15.0.0",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.13.0"
+  }
+}
